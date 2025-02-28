@@ -8,5 +8,7 @@ namespace WebAppFormMVC.Models
         : base(options) { }
 
         public DbSet<ContactMessage> ContactMessages { get; set; }
+
+        public DbSet<Contacto> Contactos { get; set; }
     }
 }

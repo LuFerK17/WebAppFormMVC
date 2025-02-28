@@ -1,0 +1,7 @@
+CREATE TABLE Contactos (
+    Id INT PRIMARY KEY IDENTITY(1, 1),
+    Nombre NVARCHAR(100) NOT NULL,
+    CorreoElectronico NVARCHAR(100) NOT NULL,
+    Mensaje NVARCHAR(MAX) NOT NULL
+);
+GO
